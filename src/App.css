@@ -1,0 +1,39 @@
+
+
+.App {
+  text-align: center;
+  background-color: brown;
+  
+  
+}
+
+.list{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+}
+
+.padre{
+  width: 100%;
+  background-color: black;
+  color: beige;
+  padding: 20px;
+  position: fixed;
+  margin-bottom: 100px;
+  
+  
+}
+
+
+.resident{
+  background-color: blue;
+  color: beige;
+
+  
+  
+
+ 
+ 
+ 
+}
