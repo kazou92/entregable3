@@ -1,6 +1,6 @@
 
 
-.App {
+ .App {
   text-align: center;
   background-color: brown;
   
@@ -36,4 +36,62 @@
  
  
  
+} 
+
+
+
+
+
+/* Estilos para las tarjetas */
+ .hover-card {
+  transition: all 0.3s ease;
+  height: 100%;
 }
+
+.hover-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15) !important;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+} 
+
+/* Asegurar que todas las tarjetas tengan la misma altura */
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body {
+  flex: 1 1 auto;
+}
+
+/* Responsive grid para diferentes tamaños */
+@media (max-width: 576px) {
+  .card-img-top {
+    height: 200px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-xl-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+} */
+
+/* Estilos para texto que se desborda */
+.text-truncate-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+} 
